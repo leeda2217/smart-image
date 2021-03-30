@@ -1,0 +1,27 @@
+{
+  "name": "smart-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.lib.js",
+    "analyzer": "webpack --env analyzer --config ./webpack.lib.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.17",
+    "@testing-library/dom": "^7.29.4",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "jest": "^26.6.3",
+    "sinon": "^9.2.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.20.2",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
